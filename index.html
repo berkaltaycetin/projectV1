@@ -47,6 +47,15 @@
         li {
             margin-bottom: 10px;
         }
+        
+        /* Resim için stil */
+        .responsive-image {
+            max-width: 100%; /* Resmin ekrandan taşmasını engeller */
+            height: auto; /* Resmin en-boy oranını korur */
+            border-radius: 8px; /* Köşeleri yuvarlatır */
+            margin-top: 20px; /* Üstte boşluk bırakır */
+            margin-bottom: 20px; /* Altta boşluk bırakır */
+        }
     </style>
 </head>
 <body>
@@ -61,6 +70,11 @@
             Eğer bu sayfayı tarayıcınızda (özellikle bir GitHub Pages linki üzerinden) görüyorsanız, her şey yolunda demektir!
         </p>
 
+        <img 
+            src="https://raw.githubusercontent.com/berkaltaycetin/projectV1/main/d%C3%BCnya.jpg" 
+            alt="Uzaydan dünya fotoğrafı"
+            class="responsive-image"
+        >
         <h2>Test Edilenler:</h2>
         <ul>
             <li>HTML yapısı</li>
@@ -69,6 +83,7 @@
             <li>Paragraflar (p)</li>
             <li>Liste elemanları (ul, li)</li>
             <li>Link (a) ve <code>code</code> formatlaması</li>
+            <li>Harici kaynaktan resim ekleme (<code>&lt;img&gt;</code>)</li>
         </ul>
 
         <p>
